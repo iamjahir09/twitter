@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body class="bg-black text-white invert">
+    
+    <div class="flex">
+      
+      <div class="first sticky flex h-screen flex-col w-[275px] px-4 top-0">
+        <div class="logo flex justify-center p-5">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="r-4qtqp9 w-7 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+          >
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div
+          class="sidebar flex invert justify-center border border-x-black border-y-black border-gray-600"
+        >
+          <ul class="flex flex-col gap-3 pl-0 ml-0 space-y-2">
+            <li
+              class="flex items-center gap-3 ml-0 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> home </span>
+              <span class="hidden md:inline">Home</span>
+            </li>
+
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined flex justify-center">
+                search
+              </span>
+              <span class="hidden md:inline">Explore</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-1"
+            >
+              <span class="material-symbols-outlined flex justify-center">
+                notifications
+              </span>
+              <span class="hidden md:inline">Notification</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> mail </span>
+              <span class="hidden md:inline">Messages</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-10 py-2 pl-2"
+            >
+              <img src="/static/images/grok.png" alt="">
+              <span class="hidden md:inline">Grok</span>
+            </li>
+            
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> table_rows </span>
+              <span class="hidden md:inline">Lists</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> bookmark </span>
+              <span class="hidden md:inline">Bookmarks</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> business_center </span>
+              <span class="hidden md:inline">Jobs</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> group </span>
+              <span class="hidden md:inline">Community</span>
+            </li>
+
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> person </span>
+              <span class="hidden md:inline">Profile</span>
+            </li>
+            <li
+              class="flex items-center gap-3 cursor-pointer hover:bg-gray-700 rounded-full w-full py-2 pl-2"
+            >
+              <span class="material-symbols-outlined"> pending </span>
+              <span class="hidden md:inline">More</span>
+            </li>
+            <li
+              class="flex items-center py-1 px-4 justify-center cursor-pointer bg-blue-600 w-30 rounded-full"
+            >
+              <button class="py-1 px-70">Post</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="second w-460 gap-0 justify-center items-center invert border border-y-black border-gray-600"
+      >
+        <div class="flex w-full">
+          <span
+            class="text-gray-600 hover:text-white p-4 border-b border-gray-800 font-medium hover:bg-gray-950 w-1/2 text-center"
+          >
+            For you
+          </span>
+          <span
+            class="text-gray-600 hover:text-white p-4 border-b border-gray-800 font-medium hover:bg-gray-950 w-1/2 text-center"
+          >
+            Following
+          </span>
+        </div>
+        <div
+          class="what flex flex-col gap-6 p-1 pl-20 text-gray-500 border border-b-1 border-x-black"
+        >
+          <span class="text-2xl border border-black"
+            ><input type="text" placeholder="What's happening?"
+          /></span>
+          <div class="icon flex gap-50 text-2xl">
+            <div class="spans flex text-blue-400 gap-5">
+              <span class="material-symbols-outlined font-light"> photo </span>
+              <span class="material-symbols-outlined"> gif_box </span>
+              <span class="material-symbols-outlined"> ballot </span>
+              <span class="material-symbols-outlined">
+                sentiment_satisfied
+              </span>
+              <span class="material-symbols-outlined"> calendar_clock </span>
+              <span class="material-symbols-outlined"> location_on </span>
+            </div>
+            <div
+              class="post rounded-full items-center justify-between font-bold text-sm text-black bg-gray-600 px-4 py-2"
+            >
+              Post
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="third w-full pl-10 pt-1 gap-5 flex flex-col invert border border-y-black border-gray-600"
+      >
+        
+           
+          <div class="relative">
+  <span class="material-symbols-outlined absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+    search
+  </span>
+  <input
+    class="text-white text-lg rounded-full pl-10 pr-2 py-2 border border-gray-600 bg-transparent w-98"
+    type="search"
+    placeholder="Search"
+  />
+</div>
+        
+        <div class="full border gap-5 border-black">
+          <div class="container gap-5 flex flex-col pr-30">
+            <div
+              class="subscribe p-6 border border-gray-600 rounded-2xl bg-transparent"
+            >
+              <h3 class="text-xl font-bold mb-2">Subscribe to Premium</h3>
+              <p class="text-gray-400">
+                Subscribe to unlock new features and if eligible, receive a
+                share of revenue.
+              </p>
+              <button
+                class="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-colors cursor-pointer"
+              >
+                Subscribe
+              </button>
+            </div>
+            <div class="next">
+              
+              <div
+                class="p-6 flex flex-col border scroll-auto border-gray-600 rounded-2xl bg-transparent  cursor-pointer">
+                <h3 class="text-xl font-bold mb-4">whats happening</h3>
+                <div class="space-y-4">
+                  <div class="trending-item">
+                    <p class="font-bold">Trade with CoinDCX</p>
+                    <p class="text-sm text-gray-400">Trade crypto futures confidently in INR.Promoted by CoinDCX : India Ka Crypto Coach</p>
+                    <p class="text-sm text-gray-400">15.2K posts</p>
+                  </div>
+                  
+                  <p class="text-sm text-gray-400">Trending in India</p>
+                    <p class="font-bold">Overton</p>
+                    <p class="text-sm text-gray-400">2,411 posts</p>
+
+                  <p class="text-sm text-gray-400">Trending in India</p>
+                  <p class="font-bold">#SSC_System_Sudharo</p>
+                  <p class="text-sm text-gray-400">694K posts</p>
+
+                  <p class="text-sm text-gray-400">Entertainment · Trending</p>
+                  <p class="font-bold">Vijay Deverakonda</p>
+                  <p class="text-sm text-gray-400">8,107 posts</p>
+
+                  <p class="text-sm text-gray-400">Politics · Trending</p>
+                  <p class="font-bold">Traitor</p>
+                  <p class="text-sm text-gray-400">81.8K posts</p>
+
+                  <p class="text-blue-500">Show more</p> 
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="fixed bottom-40 right-10 w-16 h-16 border border-white cursor-pointer invert rounded-2xl bg-black flex items-center justify-center shadow-lg">
+  <img class="w-10" src="/static/images/grok.png" alt="Grok" >
+</div>
+  </body>
+  
+
+</html>
